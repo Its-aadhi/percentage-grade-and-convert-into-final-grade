@@ -26,3 +26,10 @@ Test-3: 50%
     printf("The final grade is: %.2f\n", finalGrade);
     return 0;
     }
+
+**Sample Run:**
+
+    Please enter the percentage grade of the first test: 90.3
+    Please enter the percentage grade of the second test: 22.7
+    Please enter the percentage grade of the third test: 60.3
+    The final grade is: 55.02 %
