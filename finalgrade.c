@@ -1,5 +1,4 @@
     #include <stdio.h>
-
     int main (void)
     {
     int grade1 = 0;
@@ -16,6 +15,7 @@
 
     finalGrade = ((grade1 / 50.0) * 0.20) + ((grade2 / 50.0) * 0.30) + ((grade3 / 50.0) * 0.50);
     finalGrade *= 100;
+    
     printf("The final grade is: %.2f\n", finalGrade);
     return 0;
     }
