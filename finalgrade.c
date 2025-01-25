@@ -1,6 +1,8 @@
     #include <stdio.h>
     int main (void)
+
     {
+        
     int grade1 = 0;
     int grade2 = 0;
     int grade3 = 0;
@@ -17,5 +19,8 @@
     finalGrade *= 100;
     
     printf("The final grade is: %.2f\n", finalGrade);
+        
     return 0;
+        
     }
+
